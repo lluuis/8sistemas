@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Baloo Chettan', sans-serif;
+            display: flex;
+            background-color: #000000;
+            overflow-x: hidden; 
+        }
+
+        .justificado {
+            text-align: justify;
+        }
+
+
+        .container {
+            display: flex;
+            margin: auto; 
+            max-width: 1200px; 
+            background-color: #ffffff; 
+            border-radius: 10px; 
+            overflow: hidden; 
+            height: 100vh; 
+        }
+
+        .left-col {
+            background-color: #1a74ab;
+            width: 350px;
+            padding: 20px;
+            color: #f3f2f2;
+            transition: color 0.5s ease-in-out;
+        }
+
+        .left-col:hover {
+            color: #080808;
+        }
+
+        .right-col {
+            flex: 1;
+            padding: 20px;
+        }
+
+      
+
+
+        .left-col ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .left-col li {
+            margin-bottom: 10px;
+        }
+
+        .left-col li::before {
+            content: "\2022"; 
+            color: #f3f2f2;
+            margin-right: 10px;
+            font-size: 20px;
+            font-family: 'Baloo Chettan', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .container h1, .container h2 {
+            margin-bottom: 20px; 
+        }
+
+        .right-col h2 {
+            color: #1a74ab; 
+        }
+
+        .right-col p {
+            margin-bottom: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-col">
+            <h1>Jorge Luis Dominguez Suarez</h1>
+            <p> </p>
+            <h4>
+                <p><u>Contacto</u></p>
+            </h4>
+            
+            <ul>
+                <li><strong><span class="material-symbols-outlined">👤</span> Nombre:</strong> Jorge Luis Dominguez Suarez</li>
+                <li><strong><span class="material-symbols-outlined"></span> Edad:</strong> 21 años</li>
+                <li><strong><span class="material-symbols-outlined">📱</span> Teléfono de contacto:</strong> 55-31-35-66-37</li>
+                <li><strong><span class="material-symbols-outlined">📧</span> Correo Electrónico:</strong> dominguezsuarezluis3@gmail.com</li>
+              
+            </ul>
+
+            <h3>
+                <p><u>Perfil Profesional</u></p>
+            </h3>
+            <p class="justificado">Estudiante de 8 cuatrimestre de la carrera de Ingeniería en Sistemas Computacionales, con un enfoque específico en el frontend. Con formación en la programación y aplicado proyectos escolares. Aspiro a poder participar y desarrollar páginas con un diseño del agrado de las personas, contribuir en equipos de desarrollo.</p>
+        </div>
+
+       
+
+        <div class="right-col">
+            <h2><span class="material-symbols-outlined">💼</span>Experiencia </h2>
+            <p>
+                <ul>
+                    <li><strong>Lottus Education:</strong></li>
+                    <li>Actualmente laborando</li>
+                    <li><strong>Proyectos Academicos:</strong></li>
+                    <li>Calculadora de IMC en java bajo paradigma orientado a objetos</li>
+                    <li>Cajero automatico desarrollado en Arduino</li>
+                    <li>Calculadora de huella de carbono en java</li>
+                    <li>Cineteca en java</li>
+                </ul>
+            </p>
+
+            <h2><span class="material-symbols-outlined">🎓</span>Educación</h2>
+            <p>
+                <ul>
+                    <li><strong>Nombre:</strong> Universidad Tres Culturas</li>
+                    <li><strong>Carrera:</strong> Ing. Sistemas Computacionales</li>
+                    <li><strong>Año de Ingreso:</strong> 2021</li>
+                    <li>Actualmente cursando el 8° Cuatrimestre</li>
+                </ul>
+            </p>
+
+            <h2><span class="material-symbols-outlined">🌟</span>Habilidades</h2>
+            <ul>
+                <li>Pro activo </li>
+                <li>Capacidad de trabajo en equipo</li>
+                <li>Social</li>
+                <li>Resolución de problemas</li>
+                <li>Capacidad de adaptación</li>
+
+            </ul>
+
+            <h2><span class="material-symbols-outlined">🏅</span> Cursos y Certificados</h2>
+            <p>
+                <ul>
+                    <li>GOOGLE CLOUD</li>
+                    <li>GEOINTELIGENCIA ESPACIAL</li>
+                    
+                </ul>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+

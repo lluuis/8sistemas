@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Baloo Chettan' , sans-serif;
+            display:  flex;
+            background-color: #18b0e7;
+         
+        }
+
+        .justificado {
+            text-align: justify;
+        }
+
+
+
+        .left-col {
+    background-color: #aa78f0;
+    height: 100vh; 
+    width: 350px; 
+    padding: 200px;
+    color: #000000; 
+        }
+
+        .left-col {
+    background-color: #1a74ab;
+    height: 100vh;
+    padding: 20px;
+    color: #f3f2f2;
+    transition: color 0.5s ease-in-out; 
+}
+
+.left-col:hover {
+    color: #080808; 
+}
+
+
+.right-col h1,
+.left-col h1 {
+    transition: color 0.5s ease-in-out; 
+}
+
+.right-col:hover {
+    color: #f7efef; 
+}
+
+.right-col:hover h1,
+.right-col:hover {
+    color: #0e0e0e; 
+}
+
+
+        .right-col {
+            flex: 1;
+            padding: 20px;
+        }
+        .left-col ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .left-col li {
+            margin-bottom: 10px;
+        }
+
+        .left-col li::before {
+            content: "\2022"; /* Utilizamos el carácter de bullet point (•) como icono */
+            color: #f3f2f2;
+            margin-right: 10px;
+            font-size: 20px; /* Tamaño del texto */
+            font-family: 'Baloo Chettan', sans-serif; /* Cambiar la tipografía (puedes poner el nombre de la fuente que prefieras) */
+        }
+        
+
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+            display: inline-block; /* Hace que la imagen sea un elemento en línea */
+            vertical-align: middle; /* Alinea verticalmente con el texto */
+            margin-right: 10px; /* Espaciado a la derecha para separar la imagen del texto */
+
+
+        }
+
+        .left-col ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .left-col li {
+            margin-bottom: 10px;
+        }
+
+      
+
+
+
+    </style>
+</head>
+<body>
+    <div class="left-col">
+        <h1>Jorge Luis Dominguez Suarez</h1>
+        <p> </p>
+        <p><u>Contacto</u></p>
+        <ul>
+            <li><strong><span class="material-symbols-outlined">👤</span> Nombre:</strong> Jorge Luis Dominguez Suarez</li>
+            <li><strong> <span class="material-symbols-outlined">📱</span>Teléfono de contacto:</strong> 55-31-35-66-37</li>
+            <li><strong><span class="material-symbols-outlined">📧</span> Correo Electrónico:</strong> dominguezsuarezluis3@gmail.com </li>
+            <li><strong><span class ="material-symbols-outlined"></span>Edad:</strong> 21 años</li>
+        </ul>
+
+        <h3>
+            <p><u>Perfil Profesional</u></p>
+        </h3>
+        <p class="justificado">Estudiante de 8 cuatrimestre de la carrera de Ingenieria 
+           en Sistemas computacionales, con un enfoque especifico 
+           en el frontend. Con formacion en la programcion y aplicado 
+           proyectos escolares. Aspiro a poder participar y desarrollar 
+           paginas con un diseño del agrado de las personas, contribuir
+           en equipos de desarrollo. </p>
+       
+
+    </div>
+
+    <div class="right-col">
+        <h2>Experiencia Laboral</h2>
+        <p>Nombre del Trabajo, Empresa - Fecha de inicio a Fecha de fin</p>
+        <!-- Agrega más información sobre tu experiencia laboral aquí -->
+
+        <h2>Educación</h2>
+        <p>Universidad</p>
+        <p>
+            <ul>
+                
+                <li>Nombre : Universidad Tres Culturas</li>
+                <li>Carrera : Ing. Sistemas Computacionales</li>
+                <li>Año de Ingreso : 2021</li>
+                <li>Actualmente cursando el 8° Cuatrimestr</li> 
+            </ul>
+
+        </p>
+               
+
+        <h2>Habilidades</h2>
+        <ul>
+            <p>Habilidad 1</p>
+            <p>Habilidad 2</p>
+            <!-- Agrega más habilidades aquí -->
+        </ul>
+    </div>
+</body>
+</html>
