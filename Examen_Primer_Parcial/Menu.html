@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="validaciones.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-REeT4Mh02bC/MRUFr5UN6k8a2A3s2wBLmZC9xYJ7G1XJJ9J5tx7JFei4uGZR76CA+QCH0lXTCc+n/5rt2UblDg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             display: flex;
@@ -14,9 +15,13 @@
             justify-content: center;
             height: 100vh;
             margin: 0;
+            background-color: #87CEFA; /* Cambia el color de fondo a tu preferencia */
         }
 
         /* Añade estilos adicionales según sea necesario */
+        .icon {
+            margin-right: 5px; /* Ajusta el espacio entre el icono y el texto según sea necesario */
+        }
     </style>
 </head>
 
@@ -24,22 +29,28 @@
     <div>
         <h1>Hola !</h1>
         <!-- Todo primero pide el capital -->
-        <label for="capital">Capital : </label>
+        <label for="capital">
+            <i class="fas fa-dollar-sign icon"></i> Capital :
+        </label>
         <input type="text" name="capital" id="capital" placeholder="Eje: 400.23">
-        <span id="mensaje" style="color: red;"></span>
+        <span id="mensaje" style="color: rgb(255, 247, 20);"></span>
         <br>
         <br>
-        <label for="porcentaje">Porcentaje : </label>
+        <label for="porcentaje">
+            <i class="fas fa-percent icon"></i> Porcentaje :
+        </label>
         <select name="porcentaje" id="porcentaje">
-            <option value="32">%32</option>
+            <option value="35">%35</option>
         </select>
         <br>
         <br>
-        <label for="dias">Días : </label>
+        <label for="dias">
+            <i class="fas fa-calendar-alt icon"></i> Días :
+        </label>
         <select name="dias" id="dias">
-            <option value="28">28</option>
-            <option value="56">56</option>
-            <option value="112">112</option>
+            <option value="30">30</option>
+            <option value="60">60</option>
+            <option value="120">120</option>
         </select>
         <br>
         <br>
@@ -67,4 +78,3 @@
 </body>
 
 </html>
-
